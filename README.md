@@ -15,13 +15,13 @@ func main() {
 	serverPort := 7233
 	uiPort := 8080
 	
-    s, err := temporalink.NewEmbeddedTemporal(ip, serverPort, uiPort)
+	s, err := temporalink.NewEmbeddedTemporal(ip, serverPort, uiPort)
 	if err != nil {
 		panic(err)
-    }
-	
+	}
+
 	if err := s.Start(); err != nil {
 		fmt.Printf("error while starting server: %w\n", err)
-    }
+	}
 }
 ```
