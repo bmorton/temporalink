@@ -6,7 +6,6 @@ Inspired by `temporalite` and copy/pasted heavily from `temporalio/cli`, this li
 
 Install the `metrics` dependency and the `temporalink` package:
 ```
-$ go get go.opentelemetry.io/otel/sdk/metric@v0.39.0
 $ go get github.com/bmorton/temporalink
 ```
 

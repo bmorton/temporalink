@@ -7,7 +7,6 @@ require (
 	github.com/temporalio/cli v0.10.6
 	github.com/temporalio/tctl-kit v0.0.0-20230328153839-577f95d16fa0
 	github.com/temporalio/ui-server/v2 v2.19.0
-	go.opentelemetry.io/otel/sdk/metric v0.39.0
 	go.temporal.io/server v1.22.0
 )
 
@@ -109,6 +108,7 @@ require (
 	go.opentelemetry.io/otel/exporters/prometheus v0.39.0 // indirect
 	go.opentelemetry.io/otel/metric v1.17.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.17.0 // indirect
+	go.opentelemetry.io/otel/sdk/metric v0.39.0 // indirect
 	go.opentelemetry.io/otel/trace v1.17.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.20.0 // indirect
 	go.temporal.io/api v1.24.0 // indirect

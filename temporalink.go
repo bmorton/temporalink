@@ -10,7 +10,6 @@ import (
 	uiserver "github.com/temporalio/ui-server/v2/server"
 	uiconfig "github.com/temporalio/ui-server/v2/server/config"
 	uiserveroptions "github.com/temporalio/ui-server/v2/server/server_options"
-	_ "go.opentelemetry.io/otel/sdk/metric/aggregation"
 	"go.temporal.io/server/common/config"
 	"go.temporal.io/server/temporal"
 )
